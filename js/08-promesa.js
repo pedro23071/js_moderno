@@ -31,12 +31,13 @@ let getPerosonas = () => {
 }
 
 
-getPerosonas().then((items) => {
-    console.log(items);
-}).catch((error) => {
-    // La operación falló
-    console.error(error);
-});
+getPerosonas()
+    .then((items) => {
+        console.log(items);
+    }).catch((error) => {
+        // La operación falló
+        console.error(error);
+    });
 
 
 
